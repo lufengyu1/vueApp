@@ -7,6 +7,8 @@ import "@/assets/css/global.css"
 // 按需引入vant
 import vant from './plugin/index'
 import axios from 'axios'
+// 引入swiper
+import "swiper/swiper.min.css"
 
 
 Vue.config.productionTip = false

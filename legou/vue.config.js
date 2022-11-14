@@ -24,6 +24,8 @@ module.exports = {
                 plugins: [
                     require('postcss-px2rem')({
                         // remUnit 取设计稿的1/10，如设计稿是375，则设置为37.5
+
+                        // remUnit: 190
                         remUnit: 37.5
                     })
                 ]
